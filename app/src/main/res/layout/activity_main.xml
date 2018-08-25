@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -34,14 +33,12 @@
 
             <RadioButton
                 android:id="@+id/q1a2"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/switch_public_float" />
 
             <RadioButton
                 android:id="@+id/q1a3"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/break_object_player" />
@@ -63,21 +60,18 @@
 
             <RadioButton
                 android:id="@+id/q2a1"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/int_age_ahmed" />
 
             <RadioButton
                 android:id="@+id/q2a2"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/int_age_10" />
 
             <RadioButton
                 android:id="@+id/q2a3"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/int_age_10_2" />
@@ -99,21 +93,18 @@
 
             <RadioButton
                 android:id="@+id/q3a1"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/linux" />
 
             <RadioButton
                 android:id="@+id/q3a2"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/windows" />
 
             <RadioButton
                 android:id="@+id/q3a3"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mac" />
@@ -135,25 +126,34 @@
 
             <CheckBox
                 android:id="@+id/q4a1"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/java" />
 
             <CheckBox
                 android:id="@+id/q4a2"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/arabic" />
 
             <CheckBox
                 android:id="@+id/q4a3"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/python" />
         </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q6 : which layout that companent are relative to each other ?"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/textsize" />
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittextsize" />
 
         <TextView
             android:id="@+id/q5"
@@ -171,28 +171,24 @@
 
             <CheckBox
                 android:id="@+id/q5a1"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/button" />
 
             <CheckBox
                 android:id="@+id/q5a2"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/textview" />
 
             <CheckBox
                 android:id="@+id/q5a3"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/imageview" />
 
             <CheckBox
                 android:id="@+id/q5a4"
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mediaplayer" />
@@ -205,5 +201,4 @@
             android:onClick="checkAnswer"
             android:text="@string/submit" />
     </LinearLayout>
-
 </ScrollView>

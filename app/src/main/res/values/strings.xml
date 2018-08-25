@@ -22,4 +22,6 @@
     <string name="imageview">ImageView</string>
     <string name="mediaplayer">Mediaplayer</string>
     <string name="submit">Submit</string>
+    <string name="message2">Your score is :</string>
+    <string name="toastmessage1">please waite to calculate your score</string>
 </resources>
