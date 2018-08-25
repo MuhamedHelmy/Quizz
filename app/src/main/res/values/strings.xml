@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quizz</string>
+    <string name="question1">Q1: which of these list are java key words ?</string>
+    <string name="if_int_java">if , int , java</string>
+    <string name="switch_public_float">switch , public , float</string>
+    <string name="break_object_player">break,object,player</string>
+    <string name="question2">Q2: which is legal declared</string>
+    <string name="int_age_ahmed">int age = ahmed ;</string>
+    <string name="int_age_10">int age =10</string>
+    <string name="int_age_10_2">int age =10;</string>
+    <string name="question3">Q3: Android is a...... based ?</string>
+    <string name="linux">linux</string>
+    <string name="windows">Windows</string>
+    <string name="mac">Mac</string>
+    <string name="question4">Q4: programing languages ?</string>
+    <string name="java">java</string>
+    <string name="arabic">arabic</string>
+    <string name="python">python</string>
+    <string name="question5">Q5: views in android ?</string>
+    <string name="button">Button</string>
+    <string name="textview">Textview</string>
+    <string name="imageview">ImageView</string>
+    <string name="mediaplayer">Mediaplayer</string>
+    <string name="submit">Submit</string>
+</resources>
